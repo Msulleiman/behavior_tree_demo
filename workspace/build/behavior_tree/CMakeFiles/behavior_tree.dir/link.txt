@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbehavior_tree.a CMakeFiles/behavior_tree.dir/src/behavior_tree.cpp.o
+/usr/bin/ranlib libbehavior_tree.a

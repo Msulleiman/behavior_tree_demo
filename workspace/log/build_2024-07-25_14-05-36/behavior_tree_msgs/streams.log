@@ -1,0 +1,277 @@
+[0.008s] Invoking command in '/workspace/build/behavior_tree_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/rqt_behavior_tree:/opt/ros/humble /usr/bin/cmake /workspace/src/behavior_tree_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/behavior_tree_msgs
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.152s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.199s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.314s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.357s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.360s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.575s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.872s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.883s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.885s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.898s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.898s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.898s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.898s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.908s] -- Found PythonExtra: .so  
+[0.933s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.949s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.950s] -- Added test 'lint_cmake' to check CMake code style
+[0.950s] -- Added test 'xmllint' to check XML markup files
+[0.952s] -- Configuring done
+[0.968s] -- Generating done
+[0.969s] -- Build files have been written to: /workspace/build/behavior_tree_msgs
+[0.974s] Invoked command in '/workspace/build/behavior_tree_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/rqt_behavior_tree:/opt/ros/humble /usr/bin/cmake /workspace/src/behavior_tree_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/behavior_tree_msgs
+[0.974s] Invoking command in '/workspace/build/behavior_tree_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/rqt_behavior_tree:/opt/ros/humble /usr/bin/cmake --build /workspace/build/behavior_tree_msgs -- -j20 -l20
+[0.992s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.998s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.004s] [  3%] Built target ament_cmake_python_symlink_behavior_tree_msgs
+[1.102s] running egg_info
+[1.102s] creating behavior_tree_msgs.egg-info
+[1.102s] writing behavior_tree_msgs.egg-info/PKG-INFO
+[1.102s] writing dependency_links to behavior_tree_msgs.egg-info/dependency_links.txt
+[1.102s] writing top-level names to behavior_tree_msgs.egg-info/top_level.txt
+[1.102s] writing manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'
+[1.103s] reading manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'
+[1.103s] writing manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'
+[1.118s] [  3%] Built target ament_cmake_python_build_behavior_tree_msgs_egg
+[1.176s] [  3%] Built target behavior_tree_msgs__cpp
+[1.182s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.182s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.182s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.187s] [ 12%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/status__functions.c.o[0m
+[1.187s] [ 12%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/active__functions.c.o[0m
+[1.187s] [ 14%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/behavior_tree_command__functions.c.o[0m
+[1.187s] [ 16%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/behavior_tree_commands__functions.c.o[0m
+[1.220s] [ 18%] [32m[1mLinking C shared library libbehavior_tree_msgs__rosidl_generator_c.so[0m
+[1.240s] [ 18%] Built target behavior_tree_msgs__rosidl_generator_c
+[1.245s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.246s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.246s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.323s] [ 29%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/status__type_support.cpp.o[0m
+[1.324s] [ 29%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/active__type_support.cpp.o[0m
+[1.324s] [ 29%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/behavior_tree_command__type_support.cpp.o[0m
+[1.325s] [ 30%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/behavior_tree_commands__type_support.cpp.o[0m
+[1.344s] [ 36%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/active__type_support.cpp.o[0m
+[1.344s] [ 36%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/status__type_support.cpp.o[0m
+[1.344s] [ 36%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/behavior_tree_commands__type_support.cpp.o[0m
+[1.344s] [ 38%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/behavior_tree_command__type_support.cpp.o[0m
+[1.360s] [ 41%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/active__type_support.cpp.o[0m
+[1.360s] [ 41%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/behavior_tree_command__type_support.cpp.o[0m
+[1.360s] [ 43%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/behavior_tree_commands__type_support.cpp.o[0m
+[1.360s] [ 45%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[1.405s] [ 52%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/behavior_tree_commands__type_support.cpp.o[0m
+[1.405s] [ 52%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/status__type_support.cpp.o[0m
+[1.405s] [ 52%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/behavior_tree_command__type_support.cpp.o[0m
+[1.405s] [ 52%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/active__type_support.cpp.o[0m
+[1.429s] [ 54%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_c.so[0m
+[1.473s] [ 54%] Built target behavior_tree_msgs__rosidl_typesupport_c
+[1.475s] [ 58%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/active__type_support_c.cpp.o[0m
+[1.475s] [ 58%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/status__type_support.c.o[0m
+[1.475s] [ 60%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[1.477s] [ 61%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/active__type_support.c.o[0m
+[1.481s] [ 63%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/behavior_tree_commands__type_support.c.o[0m
+[1.482s] [ 65%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/behavior_tree_command__type_support.c.o[0m
+[1.488s] [ 67%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/behavior_tree_commands__type_support_c.cpp.o[0m
+[1.493s] [ 69%] [32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/behavior_tree_command__type_support_c.cpp.o[0m
+[1.545s] [ 70%] [32m[1mLinking C shared library libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.574s] [ 70%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c
+[1.582s] [ 72%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_cpp.so[0m
+[1.609s] [ 72%] Built target behavior_tree_msgs__rosidl_typesupport_cpp
+[1.705s] [ 74%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.713s] [ 76%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.716s] [ 78%] [32m[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.747s] [ 78%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_cpp
+[1.755s] [ 78%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c
+[1.758s] [ 78%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp
+[1.767s] [ 78%] Built target behavior_tree_msgs
+[1.774s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.012s] [ 80%] Built target behavior_tree_msgs__py
+[2.020s] [ 81%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_active_s.c.o[0m
+[2.020s] [ 83%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_status_s.c.o[0m
+[2.021s] [ 85%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_behavior_tree_command_s.c.o[0m
+[2.021s] [ 87%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_behavior_tree_commands_s.c.o[0m
+[2.087s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/libbehavior_tree_msgs__rosidl_generator_py.so[0m
+[2.109s] [ 89%] Built target behavior_tree_msgs__rosidl_generator_py
+[2.121s] [ 92%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.121s] [ 94%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.121s] [ 94%] [32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.175s] [100%] [32m[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.175s] [100%] [32m[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.175s] [100%] [32m[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.195s] [100%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.195s] [100%] Built target behavior_tree_msgs__rosidl_typesupport_c__pyext
+[2.195s] [100%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c__pyext
+[2.201s] Invoked command in '/workspace/build/behavior_tree_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/rqt_behavior_tree:/opt/ros/humble /usr/bin/cmake --build /workspace/build/behavior_tree_msgs -- -j20 -l20
+[2.246s] Invoking command in '/workspace/build/behavior_tree_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/rqt_behavior_tree:/opt/ros/humble /usr/bin/cmake --install /workspace/build/behavior_tree_msgs
+[2.250s] -- Install configuration: ""
+[2.250s] -- Execute custom install script
+[2.250s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/ament_index/resource_index/rosidl_interfaces/behavior_tree_msgs
+[2.255s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/active.h
+[2.259s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/behavior_tree_command.h
+[2.263s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/behavior_tree_commands.h
+[2.267s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__functions.h
+[2.271s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__struct.h
+[2.274s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__type_support.h
+[2.278s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__functions.h
+[2.282s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__struct.h
+[2.285s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__type_support.h
+[2.289s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__functions.h
+[2.292s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__struct.h
+[2.296s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__type_support.h
+[2.299s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__functions.h
+[2.302s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__struct.h
+[2.305s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__type_support.h
+[2.308s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.311s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/status.h
+[2.315s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/library_path.sh
+[2.319s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/library_path.dsv
+[2.324s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__rosidl_typesupport_fastrtps_c.h
+[2.330s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__rosidl_typesupport_fastrtps_c.h
+[2.336s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__rosidl_typesupport_fastrtps_c.h
+[2.341s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[2.346s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.351s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/active.hpp
+[2.356s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/behavior_tree_command.hpp
+[2.363s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/behavior_tree_commands.hpp
+[2.368s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__builder.hpp
+[2.372s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__struct.hpp
+[2.377s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__traits.hpp
+[2.381s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__builder.hpp
+[2.386s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__struct.hpp
+[2.390s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__traits.hpp
+[2.395s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__builder.hpp
+[2.399s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__struct.hpp
+[2.404s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__traits.hpp
+[2.408s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__builder.hpp
+[2.412s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__struct.hpp
+[2.417s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__traits.hpp
+[2.421s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/status.hpp
+[2.426s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__rosidl_typesupport_fastrtps_cpp.hpp
+[2.431s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.436s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[2.440s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.445s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.450s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__rosidl_typesupport_introspection_c.h
+[2.455s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__rosidl_typesupport_introspection_c.h
+[2.460s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__rosidl_typesupport_introspection_c.h
+[2.465s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[2.470s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.475s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__rosidl_typesupport_introspection_cpp.hpp
+[2.481s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__rosidl_typesupport_introspection_cpp.hpp
+[2.486s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__rosidl_typesupport_introspection_cpp.hpp
+[2.493s] -- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[2.501s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/pythonpath.sh
+[2.510s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/pythonpath.dsv
+[2.519s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.528s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.538s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.551s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.560s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/__init__.py
+[2.572s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_c.c
+[2.586s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.598s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.607s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.615s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.622s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.629s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/libbehavior_tree_msgs__rosidl_generator_py.so
+[2.635s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/__init__.py
+[2.640s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_active.py
+[2.644s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_active_s.c
+[2.648s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_command.py
+[2.652s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_command_s.c
+[2.657s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_commands.py
+[2.661s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_commands_s.c
+[2.665s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_status.py
+[2.670s] -- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_status_s.c
+[2.674s] -- Up-to-date symlink: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.675s] -- Up-to-date symlink: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.675s] -- Up-to-date symlink: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.675s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Active.idl
+[2.678s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Status.idl
+[2.682s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BehaviorTreeCommand.idl
+[2.685s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BehaviorTreeCommands.idl
+[2.689s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Active.msg
+[2.693s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Status.msg
+[2.696s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BehaviorTreeCommand.msg
+[2.700s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BehaviorTreeCommands.msg
+[2.704s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/ament_index/resource_index/package_run_dependencies/behavior_tree_msgs
+[2.707s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/ament_index/resource_index/parent_prefix_path/behavior_tree_msgs
+[2.711s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/ament_prefix_path.sh
+[2.715s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/ament_prefix_path.dsv
+[2.720s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/path.sh
+[2.725s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/path.dsv
+[2.729s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.bash
+[2.734s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.sh
+[2.739s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.zsh
+[2.744s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.dsv
+[2.749s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/package.dsv
+[2.755s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/ament_index/resource_index/packages/behavior_tree_msgs
+[2.761s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake-extras.cmake
+[2.767s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.773s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.781s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.788s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.797s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.807s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.812s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgsConfig.cmake
+[2.817s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgsConfig-version.cmake
+[2.822s] -- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/package.xml
+[2.825s] -- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_c.so
+[2.825s] -- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_c.so" to ""
+[2.825s] -- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so
+[2.825s] -- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.825s] -- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.825s] -- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.825s] -- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so
+[2.826s] -- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.826s] -- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_c.so
+[2.826s] -- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_c.so" to ""
+[2.826s] -- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so
+[2.826s] -- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.826s] -- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_cpp.so
+[2.826s] -- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_cpp.so" to ""
+[2.846s] Listing '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs'...
+[2.846s] Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/__init__.py'...
+[2.846s] Listing '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg'...
+[2.846s] Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/__init__.py'...
+[2.846s] Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_active.py'...
+[2.846s] Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_command.py'...
+[2.846s] Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_commands.py'...
+[2.846s] Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_status.py'...
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_py.so
+[2.849s] -- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_py.so" to ""
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cExport.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cppExport.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cExport.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cppExport.cmake
+[2.849s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.850s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_pyExport.cmake
+[2.850s] -- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.851s] Invoked command in '/workspace/build/behavior_tree_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/rqt_behavior_tree:/opt/ros/humble /usr/bin/cmake --install /workspace/build/behavior_tree_msgs

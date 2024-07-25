@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/build/behavior_tree_example/behavior_tree_example" "/workspace/build/behavior_tree_example/robot_node" "TARGETS" "behavior_tree_example" "robot_node" "DESTINATION" "lib/behavior_tree_example")

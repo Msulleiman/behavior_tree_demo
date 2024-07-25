@@ -1,0 +1,18 @@
+# Behavior Tree Demo
+
+## Running
+
+```
+git clone git@bitbucket.org:castacks/behavior_tree_demo.git
+cd behavior_tree_demo
+./docker_run.sh
+ros2 launch behavior_tree_example behavior_tree_example.xml
+```
+
+## Modifying the demo
+
+The config file for the behavior tree is in `workspace/src/behavior_tree_example/config/demo_base.tree`.
+
+You can edit this from outside docker and it will be reflected inside.
+
+If you want to create a new config file you can place it in the `workspace/src/behavior_tree_example/config/` folder and modify the config parameter in `workspace/src/behavior_tree_example/launch/behavior_tree_example.xml` but you will have to rebuild with `colcon build --symlink-install` for the change to be reflected.

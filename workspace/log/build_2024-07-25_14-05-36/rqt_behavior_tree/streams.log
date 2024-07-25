@@ -1,0 +1,29 @@
+[0.272s] Invoking command in '/workspace/build/rqt_behavior_tree': PYTHONPATH=/workspace/build/rqt_behavior_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/rqt_behavior_tree/build --no-deps symlink_data
+[0.377s] running develop
+[0.378s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.378s]   warnings.warn(
+[0.426s] running egg_info
+[0.426s] creating src/rqt_behavior_tree.egg-info
+[0.426s] writing src/rqt_behavior_tree.egg-info/PKG-INFO
+[0.426s] writing dependency_links to src/rqt_behavior_tree.egg-info/dependency_links.txt
+[0.426s] writing entry points to src/rqt_behavior_tree.egg-info/entry_points.txt
+[0.426s] writing requirements to src/rqt_behavior_tree.egg-info/requires.txt
+[0.426s] writing top-level names to src/rqt_behavior_tree.egg-info/top_level.txt
+[0.426s] writing manifest file 'src/rqt_behavior_tree.egg-info/SOURCES.txt'
+[0.427s] reading manifest file 'src/rqt_behavior_tree.egg-info/SOURCES.txt'
+[0.428s] writing manifest file 'src/rqt_behavior_tree.egg-info/SOURCES.txt'
+[0.428s] running build_ext
+[0.428s] Creating /workspace/install/rqt_behavior_tree/lib/python3.10/site-packages/rqt-behavior-tree.egg-link (link to src)
+[0.429s] Installing rqt_behavior_tree script to /workspace/install/rqt_behavior_tree/lib/rqt_behavior_tree
+[0.429s] 
+[0.429s] Installed /workspace/build/rqt_behavior_tree/src
+[0.429s] running symlink_data
+[0.429s] creating /workspace/install/rqt_behavior_tree/share/ament_index
+[0.429s] creating /workspace/install/rqt_behavior_tree/share/ament_index/resource_index
+[0.429s] creating /workspace/install/rqt_behavior_tree/share/ament_index/resource_index/packages
+[0.429s] symbolically linking /workspace/build/rqt_behavior_tree/resource/rqt_behavior_tree -> /workspace/install/rqt_behavior_tree/share/ament_index/resource_index/packages
+[0.429s] creating /workspace/install/rqt_behavior_tree/share/rqt_behavior_tree/resource
+[0.429s] symbolically linking /workspace/build/rqt_behavior_tree/resource/py_console_widget.ui -> /workspace/install/rqt_behavior_tree/share/rqt_behavior_tree/resource
+[0.429s] symbolically linking /workspace/build/rqt_behavior_tree/package.xml -> /workspace/install/rqt_behavior_tree/share/rqt_behavior_tree
+[0.429s] symbolically linking /workspace/build/rqt_behavior_tree/plugin.xml -> /workspace/install/rqt_behavior_tree/share/rqt_behavior_tree
+[0.445s] Invoked command in '/workspace/build/rqt_behavior_tree' returned '0': PYTHONPATH=/workspace/build/rqt_behavior_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/rqt_behavior_tree/build --no-deps symlink_data

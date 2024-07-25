@@ -1,0 +1,783 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (behavior_tree_msgs) JobQueued: {'identifier': 'behavior_tree_msgs', 'dependencies': OrderedDict()}
+[0.000230] (rqt_behavior_tree) JobQueued: {'identifier': 'rqt_behavior_tree', 'dependencies': OrderedDict()}
+[0.000239] (behavior_tree) JobQueued: {'identifier': 'behavior_tree', 'dependencies': OrderedDict([('behavior_tree_msgs', '/workspace/install/behavior_tree_msgs')])}
+[0.000248] (behavior_tree_example) JobQueued: {'identifier': 'behavior_tree_example', 'dependencies': OrderedDict([('behavior_tree_msgs', '/workspace/install/behavior_tree_msgs'), ('behavior_tree', '/workspace/install/behavior_tree')])}
+[0.000256] (behavior_tree_msgs) JobStarted: {'identifier': 'behavior_tree_msgs'}
+[0.004593] (rqt_behavior_tree) JobStarted: {'identifier': 'rqt_behavior_tree'}
+[0.007679] (behavior_tree_msgs) JobProgress: {'identifier': 'behavior_tree_msgs', 'progress': 'cmake'}
+[0.007750] (behavior_tree_msgs) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/behavior_tree_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/behavior_tree_msgs'], 'cwd': '/workspace/build/behavior_tree_msgs', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree_example:/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[0.063547] (behavior_tree_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099808] (-) TimerEvent: {}
+[0.107849] (behavior_tree_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.113207] (behavior_tree_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.148334] (behavior_tree_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152138] (behavior_tree_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.152376] (behavior_tree_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.152727] (behavior_tree_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.154620] (behavior_tree_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193452] (behavior_tree_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.197505] (behavior_tree_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.197715] (behavior_tree_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.197821] (behavior_tree_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199223] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.199857] (-) TimerEvent: {}
+[0.276630] (rqt_behavior_tree) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/rqt_behavior_tree/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/rqt_behavior_tree', 'env': {'HOSTNAME': 'john-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/workspace/install/rqt_behavior_tree:/opt/ros/humble', 'ACCEPT_EULA': 'Y', 'PWD': '/workspace/build/rqt_behavior_tree', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/rqt_behavior_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'PRIVACY_CONSENT': 'Y', 'CMAKE_PREFIX_PATH': '/workspace/install/behavior_tree_example:/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs'}, 'shell': False}
+[0.279871] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299999] (-) TimerEvent: {}
+[0.314414] (behavior_tree_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.357262] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.360516] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.366412] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375322] (behavior_tree_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.381658] (rqt_behavior_tree) StdoutLine: {'line': b'running develop\n'}
+[0.382125] (rqt_behavior_tree) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.382263] (rqt_behavior_tree) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.387262] (behavior_tree_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400080] (-) TimerEvent: {}
+[0.419855] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.430465] (rqt_behavior_tree) StdoutLine: {'line': b'running egg_info\n'}
+[0.430607] (rqt_behavior_tree) StdoutLine: {'line': b'creating src/rqt_behavior_tree.egg-info\n'}
+[0.430682] (rqt_behavior_tree) StdoutLine: {'line': b'writing src/rqt_behavior_tree.egg-info/PKG-INFO\n'}
+[0.430753] (rqt_behavior_tree) StdoutLine: {'line': b'writing dependency_links to src/rqt_behavior_tree.egg-info/dependency_links.txt\n'}
+[0.430820] (rqt_behavior_tree) StdoutLine: {'line': b'writing entry points to src/rqt_behavior_tree.egg-info/entry_points.txt\n'}
+[0.430874] (rqt_behavior_tree) StdoutLine: {'line': b'writing requirements to src/rqt_behavior_tree.egg-info/requires.txt\n'}
+[0.430927] (rqt_behavior_tree) StdoutLine: {'line': b'writing top-level names to src/rqt_behavior_tree.egg-info/top_level.txt\n'}
+[0.430980] (rqt_behavior_tree) StdoutLine: {'line': b"writing manifest file 'src/rqt_behavior_tree.egg-info/SOURCES.txt'\n"}
+[0.431831] (rqt_behavior_tree) StdoutLine: {'line': b"reading manifest file 'src/rqt_behavior_tree.egg-info/SOURCES.txt'\n"}
+[0.432174] (rqt_behavior_tree) StdoutLine: {'line': b"writing manifest file 'src/rqt_behavior_tree.egg-info/SOURCES.txt'\n"}
+[0.432810] (rqt_behavior_tree) StdoutLine: {'line': b'running build_ext\n'}
+[0.433006] (rqt_behavior_tree) StdoutLine: {'line': b'Creating /workspace/install/rqt_behavior_tree/lib/python3.10/site-packages/rqt-behavior-tree.egg-link (link to src)\n'}
+[0.433268] (rqt_behavior_tree) StdoutLine: {'line': b'Installing rqt_behavior_tree script to /workspace/install/rqt_behavior_tree/lib/rqt_behavior_tree\n'}
+[0.433413] (rqt_behavior_tree) StdoutLine: {'line': b'\n'}
+[0.433508] (rqt_behavior_tree) StdoutLine: {'line': b'Installed /workspace/build/rqt_behavior_tree/src\n'}
+[0.433584] (rqt_behavior_tree) StdoutLine: {'line': b'running symlink_data\n'}
+[0.433640] (rqt_behavior_tree) StdoutLine: {'line': b'creating /workspace/install/rqt_behavior_tree/share/ament_index\n'}
+[0.433707] (rqt_behavior_tree) StdoutLine: {'line': b'creating /workspace/install/rqt_behavior_tree/share/ament_index/resource_index\n'}
+[0.433761] (rqt_behavior_tree) StdoutLine: {'line': b'creating /workspace/install/rqt_behavior_tree/share/ament_index/resource_index/packages\n'}
+[0.433815] (rqt_behavior_tree) StdoutLine: {'line': b'symbolically linking /workspace/build/rqt_behavior_tree/resource/rqt_behavior_tree -> /workspace/install/rqt_behavior_tree/share/ament_index/resource_index/packages\n'}
+[0.433869] (rqt_behavior_tree) StdoutLine: {'line': b'creating /workspace/install/rqt_behavior_tree/share/rqt_behavior_tree/resource\n'}
+[0.433924] (rqt_behavior_tree) StdoutLine: {'line': b'symbolically linking /workspace/build/rqt_behavior_tree/resource/py_console_widget.ui -> /workspace/install/rqt_behavior_tree/share/rqt_behavior_tree/resource\n'}
+[0.433978] (rqt_behavior_tree) StdoutLine: {'line': b'symbolically linking /workspace/build/rqt_behavior_tree/package.xml -> /workspace/install/rqt_behavior_tree/share/rqt_behavior_tree\n'}
+[0.434032] (rqt_behavior_tree) StdoutLine: {'line': b'symbolically linking /workspace/build/rqt_behavior_tree/plugin.xml -> /workspace/install/rqt_behavior_tree/share/rqt_behavior_tree\n'}
+[0.449937] (rqt_behavior_tree) CommandEnded: {'returncode': 0}
+[0.456423] (rqt_behavior_tree) JobEnded: {'identifier': 'rqt_behavior_tree', 'rc': 0}
+[0.500218] (-) TimerEvent: {}
+[0.574628] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600369] (-) TimerEvent: {}
+[0.700677] (-) TimerEvent: {}
+[0.800898] (-) TimerEvent: {}
+[0.801144] (behavior_tree_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.872230] (behavior_tree_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.883680] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.884718] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.897639] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.897811] (behavior_tree_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.897851] (behavior_tree_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.897878] (behavior_tree_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.900994] (-) TimerEvent: {}
+[0.907964] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.933156] (behavior_tree_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.948821] (behavior_tree_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.949808] (behavior_tree_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.950462] (behavior_tree_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.951999] (behavior_tree_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.968176] (behavior_tree_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.969185] (behavior_tree_msgs) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/behavior_tree_msgs\n'}
+[0.973054] (behavior_tree_msgs) CommandEnded: {'returncode': 0}
+[0.973952] (behavior_tree_msgs) JobProgress: {'identifier': 'behavior_tree_msgs', 'progress': 'build'}
+[0.973967] (behavior_tree_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/behavior_tree_msgs', '--', '-j20', '-l20'], 'cwd': '/workspace/build/behavior_tree_msgs', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree_example:/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[0.992370] (behavior_tree_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.997814] (behavior_tree_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.001072] (-) TimerEvent: {}
+[1.003876] (behavior_tree_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_behavior_tree_msgs\n'}
+[1.101224] (-) TimerEvent: {}
+[1.101661] (behavior_tree_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.102065] (behavior_tree_msgs) StdoutLine: {'line': b'creating behavior_tree_msgs.egg-info\n'}
+[1.102272] (behavior_tree_msgs) StdoutLine: {'line': b'writing behavior_tree_msgs.egg-info/PKG-INFO\n'}
+[1.102339] (behavior_tree_msgs) StdoutLine: {'line': b'writing dependency_links to behavior_tree_msgs.egg-info/dependency_links.txt\n'}
+[1.102407] (behavior_tree_msgs) StdoutLine: {'line': b'writing top-level names to behavior_tree_msgs.egg-info/top_level.txt\n'}
+[1.102464] (behavior_tree_msgs) StdoutLine: {'line': b"writing manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'\n"}
+[1.103089] (behavior_tree_msgs) StdoutLine: {'line': b"reading manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'\n"}
+[1.103458] (behavior_tree_msgs) StdoutLine: {'line': b"writing manifest file 'behavior_tree_msgs.egg-info/SOURCES.txt'\n"}
+[1.117938] (behavior_tree_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_behavior_tree_msgs_egg\n'}
+[1.176081] (behavior_tree_msgs) StdoutLine: {'line': b'[  3%] Built target behavior_tree_msgs__cpp\n'}
+[1.181817] (behavior_tree_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.181978] (behavior_tree_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.182042] (behavior_tree_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.187301] (behavior_tree_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/status__functions.c.o\x1b[0m\n'}
+[1.187462] (behavior_tree_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/active__functions.c.o\x1b[0m\n'}
+[1.187528] (behavior_tree_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/behavior_tree_command__functions.c.o\x1b[0m\n'}
+[1.187591] (behavior_tree_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_c.dir/rosidl_generator_c/behavior_tree_msgs/msg/detail/behavior_tree_commands__functions.c.o\x1b[0m\n'}
+[1.201387] (-) TimerEvent: {}
+[1.219753] (behavior_tree_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libbehavior_tree_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.239841] (behavior_tree_msgs) StdoutLine: {'line': b'[ 18%] Built target behavior_tree_msgs__rosidl_generator_c\n'}
+[1.245601] (behavior_tree_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.245768] (behavior_tree_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.245844] (behavior_tree_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.301477] (-) TimerEvent: {}
+[1.323561] (behavior_tree_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/status__type_support.cpp.o\x1b[0m\n'}
+[1.323727] (behavior_tree_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/active__type_support.cpp.o\x1b[0m\n'}
+[1.323802] (behavior_tree_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/behavior_tree_command__type_support.cpp.o\x1b[0m\n'}
+[1.325147] (behavior_tree_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/behavior_tree_msgs/msg/behavior_tree_commands__type_support.cpp.o\x1b[0m\n'}
+[1.344057] (behavior_tree_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/active__type_support.cpp.o\x1b[0m\n'}
+[1.344222] (behavior_tree_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/status__type_support.cpp.o\x1b[0m\n'}
+[1.344276] (behavior_tree_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/behavior_tree_commands__type_support.cpp.o\x1b[0m\n'}
+[1.344377] (behavior_tree_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/behavior_tree_msgs/msg/detail/behavior_tree_command__type_support.cpp.o\x1b[0m\n'}
+[1.360148] (behavior_tree_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/active__type_support.cpp.o\x1b[0m\n'}
+[1.360312] (behavior_tree_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/behavior_tree_command__type_support.cpp.o\x1b[0m\n'}
+[1.360608] (behavior_tree_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/behavior_tree_commands__type_support.cpp.o\x1b[0m\n'}
+[1.360680] (behavior_tree_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/behavior_tree_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o\x1b[0m\n'}
+[1.401604] (-) TimerEvent: {}
+[1.404848] (behavior_tree_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/behavior_tree_commands__type_support.cpp.o\x1b[0m\n'}
+[1.405041] (behavior_tree_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/status__type_support.cpp.o\x1b[0m\n'}
+[1.405097] (behavior_tree_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/behavior_tree_command__type_support.cpp.o\x1b[0m\n'}
+[1.405138] (behavior_tree_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/behavior_tree_msgs/msg/active__type_support.cpp.o\x1b[0m\n'}
+[1.429570] (behavior_tree_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.472684] (behavior_tree_msgs) StdoutLine: {'line': b'[ 54%] Built target behavior_tree_msgs__rosidl_typesupport_c\n'}
+[1.474908] (behavior_tree_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/active__type_support_c.cpp.o\x1b[0m\n'}
+[1.475157] (behavior_tree_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/status__type_support.c.o\x1b[0m\n'}
+[1.475288] (behavior_tree_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/status__type_support_c.cpp.o\x1b[0m\n'}
+[1.476861] (behavior_tree_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/active__type_support.c.o\x1b[0m\n'}
+[1.481526] (behavior_tree_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/behavior_tree_commands__type_support.c.o\x1b[0m\n'}
+[1.482622] (behavior_tree_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/behavior_tree_msgs/msg/detail/behavior_tree_command__type_support.c.o\x1b[0m\n'}
+[1.487855] (behavior_tree_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/behavior_tree_commands__type_support_c.cpp.o\x1b[0m\n'}
+[1.492992] (behavior_tree_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/behavior_tree_msgs/msg/detail/behavior_tree_command__type_support_c.cpp.o\x1b[0m\n'}
+[1.501765] (-) TimerEvent: {}
+[1.545104] (behavior_tree_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.573857] (behavior_tree_msgs) StdoutLine: {'line': b'[ 70%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c\n'}
+[1.582546] (behavior_tree_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.601897] (-) TimerEvent: {}
+[1.609263] (behavior_tree_msgs) StdoutLine: {'line': b'[ 72%] Built target behavior_tree_msgs__rosidl_typesupport_cpp\n'}
+[1.701998] (-) TimerEvent: {}
+[1.704699] (behavior_tree_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.713648] (behavior_tree_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.716339] (behavior_tree_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.747069] (behavior_tree_msgs) StdoutLine: {'line': b'[ 78%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.755115] (behavior_tree_msgs) StdoutLine: {'line': b'[ 78%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.758690] (behavior_tree_msgs) StdoutLine: {'line': b'[ 78%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.766838] (behavior_tree_msgs) StdoutLine: {'line': b'[ 78%] Built target behavior_tree_msgs\n'}
+[1.774650] (behavior_tree_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.802102] (-) TimerEvent: {}
+[1.902306] (-) TimerEvent: {}
+[2.002503] (-) TimerEvent: {}
+[2.012201] (behavior_tree_msgs) StdoutLine: {'line': b'[ 80%] Built target behavior_tree_msgs__py\n'}
+[2.020543] (behavior_tree_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_active_s.c.o\x1b[0m\n'}
+[2.020656] (behavior_tree_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_status_s.c.o\x1b[0m\n'}
+[2.020908] (behavior_tree_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_behavior_tree_command_s.c.o\x1b[0m\n'}
+[2.021057] (behavior_tree_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_generator_py.dir/rosidl_generator_py/behavior_tree_msgs/msg/_behavior_tree_commands_s.c.o\x1b[0m\n'}
+[2.086957] (behavior_tree_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/libbehavior_tree_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.102632] (-) TimerEvent: {}
+[2.109130] (behavior_tree_msgs) StdoutLine: {'line': b'[ 89%] Built target behavior_tree_msgs__rosidl_generator_py\n'}
+[2.120767] (behavior_tree_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.120883] (behavior_tree_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.120917] (behavior_tree_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/behavior_tree_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.175110] (behavior_tree_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.175316] (behavior_tree_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.175356] (behavior_tree_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.195215] (behavior_tree_msgs) StdoutLine: {'line': b'[100%] Built target behavior_tree_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.195375] (behavior_tree_msgs) StdoutLine: {'line': b'[100%] Built target behavior_tree_msgs__rosidl_typesupport_c__pyext\n'}
+[2.195409] (behavior_tree_msgs) StdoutLine: {'line': b'[100%] Built target behavior_tree_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.200943] (behavior_tree_msgs) CommandEnded: {'returncode': 0}
+[2.202687] (-) TimerEvent: {}
+[2.241244] (behavior_tree_msgs) JobProgress: {'identifier': 'behavior_tree_msgs', 'progress': 'install'}
+[2.245965] (behavior_tree_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/behavior_tree_msgs'], 'cwd': '/workspace/build/behavior_tree_msgs', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree_example:/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[2.250079] (behavior_tree_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.250406] (behavior_tree_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.250542] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/ament_index/resource_index/rosidl_interfaces/behavior_tree_msgs\n'}
+[2.255064] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/active.h\n'}
+[2.258992] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/behavior_tree_command.h\n'}
+[2.263003] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/behavior_tree_commands.h\n'}
+[2.266904] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__functions.h\n'}
+[2.270800] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__struct.h\n'}
+[2.274473] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__type_support.h\n'}
+[2.278257] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__functions.h\n'}
+[2.281907] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__struct.h\n'}
+[2.285669] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__type_support.h\n'}
+[2.289241] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__functions.h\n'}
+[2.292654] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__struct.h\n'}
+[2.295845] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__type_support.h\n'}
+[2.298975] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__functions.h\n'}
+[2.302260] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__struct.h\n'}
+[2.302744] (-) TimerEvent: {}
+[2.305393] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__type_support.h\n'}
+[2.308420] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.311492] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/status.h\n'}
+[2.314773] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/library_path.sh\n'}
+[2.318907] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/library_path.dsv\n'}
+[2.324665] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__rosidl_typesupport_fastrtps_c.h\n'}
+[2.330534] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__rosidl_typesupport_fastrtps_c.h\n'}
+[2.336230] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[2.341257] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.346122] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.351054] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/active.hpp\n'}
+[2.356401] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/behavior_tree_command.hpp\n'}
+[2.363278] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/behavior_tree_commands.hpp\n'}
+[2.367939] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__builder.hpp\n'}
+[2.372384] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__struct.hpp\n'}
+[2.377052] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__traits.hpp\n'}
+[2.381279] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__builder.hpp\n'}
+[2.385886] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__struct.hpp\n'}
+[2.390380] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__traits.hpp\n'}
+[2.395073] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__builder.hpp\n'}
+[2.399553] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__struct.hpp\n'}
+[2.402860] (-) TimerEvent: {}
+[2.403805] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__traits.hpp\n'}
+[2.408132] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__builder.hpp\n'}
+[2.412543] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__struct.hpp\n'}
+[2.416982] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__traits.hpp\n'}
+[2.421570] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/status.hpp\n'}
+[2.426340] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.431190] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.435844] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.440667] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.445257] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.450294] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__rosidl_typesupport_introspection_c.h\n'}
+[2.455204] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__rosidl_typesupport_introspection_c.h\n'}
+[2.460415] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__rosidl_typesupport_introspection_c.h\n'}
+[2.465133] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[2.470132] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.475010] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/active__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.481053] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.486541] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/behavior_tree_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.493584] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/include/behavior_tree_msgs/behavior_tree_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.501528] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/pythonpath.sh\n'}
+[2.503018] (-) TimerEvent: {}
+[2.509691] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/pythonpath.dsv\n'}
+[2.519072] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.528173] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.537745] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.551227] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.559898] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/__init__.py\n'}
+[2.572286] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.585681] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.598061] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/_behavior_tree_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.603186] (-) TimerEvent: {}
+[2.606876] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.614807] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.622423] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.629247] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/libbehavior_tree_msgs__rosidl_generator_py.so\n'}
+[2.635213] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/__init__.py\n'}
+[2.639765] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_active.py\n'}
+[2.643927] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_active_s.c\n'}
+[2.648270] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_command.py\n'}
+[2.652497] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_command_s.c\n'}
+[2.656846] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_commands.py\n'}
+[2.661161] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_commands_s.c\n'}
+[2.665615] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_status.py\n'}
+[2.669881] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_status_s.c\n'}
+[2.674592] (behavior_tree_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.674768] (behavior_tree_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.674844] (behavior_tree_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/behavior_tree_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.674895] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Active.idl\n'}
+[2.678510] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Status.idl\n'}
+[2.681932] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BehaviorTreeCommand.idl\n'}
+[2.685572] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BehaviorTreeCommands.idl\n'}
+[2.689108] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Active.msg\n'}
+[2.692848] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/Status.msg\n'}
+[2.696374] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BehaviorTreeCommand.msg\n'}
+[2.700088] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/msg/BehaviorTreeCommands.msg\n'}
+[2.703211] (-) TimerEvent: {}
+[2.703706] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/ament_index/resource_index/package_run_dependencies/behavior_tree_msgs\n'}
+[2.707442] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/ament_index/resource_index/parent_prefix_path/behavior_tree_msgs\n'}
+[2.710898] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/ament_prefix_path.sh\n'}
+[2.715632] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/ament_prefix_path.dsv\n'}
+[2.720385] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/path.sh\n'}
+[2.724880] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/environment/path.dsv\n'}
+[2.729656] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.bash\n'}
+[2.734347] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.sh\n'}
+[2.739155] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.zsh\n'}
+[2.743759] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/local_setup.dsv\n'}
+[2.749652] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/package.dsv\n'}
+[2.755649] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/ament_index/resource_index/packages/behavior_tree_msgs\n'}
+[2.761285] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.767387] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.773069] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.780809] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.787837] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.797185] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.803393] (-) TimerEvent: {}
+[2.806830] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.812525] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgsConfig.cmake\n'}
+[2.816843] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgsConfig-version.cmake\n'}
+[2.821848] (behavior_tree_msgs) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/package.xml\n'}
+[2.825238] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_c.so\n'}
+[2.825322] (behavior_tree_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_c.so" to ""\n'}
+[2.825373] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.825500] (behavior_tree_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.825561] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.825666] (behavior_tree_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.825727] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.825775] (behavior_tree_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.825802] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_c.so\n'}
+[2.825837] (behavior_tree_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_c.so" to ""\n'}
+[2.825871] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.825932] (behavior_tree_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.825964] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_cpp.so\n'}
+[2.826041] (behavior_tree_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[2.845960] (behavior_tree_msgs) StdoutLine: {'line': b"Listing '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs'...\n"}
+[2.846061] (behavior_tree_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/__init__.py'...\n"}
+[2.846097] (behavior_tree_msgs) StdoutLine: {'line': b"Listing '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg'...\n"}
+[2.846124] (behavior_tree_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/__init__.py'...\n"}
+[2.846149] (behavior_tree_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_active.py'...\n"}
+[2.846172] (behavior_tree_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_command.py'...\n"}
+[2.846195] (behavior_tree_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_behavior_tree_commands.py'...\n"}
+[2.846218] (behavior_tree_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages/behavior_tree_msgs/msg/_status.py'...\n"}
+[2.849003] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_py.so\n'}
+[2.849150] (behavior_tree_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/behavior_tree_msgs/lib/libbehavior_tree_msgs__rosidl_generator_py.so" to ""\n'}
+[2.849212] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cExport.cmake\n'}
+[2.849255] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.849283] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.849321] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.849350] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.849387] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.849423] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.849458] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.849494] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.849527] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.849559] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.849593] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.849631] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.849672] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.849711] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/behavior_tree_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.849750] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.849787] (behavior_tree_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake/export_behavior_tree_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.851182] (behavior_tree_msgs) CommandEnded: {'returncode': 0}
+[2.903484] (-) TimerEvent: {}
+[3.003913] (behavior_tree_msgs) JobEnded: {'identifier': 'behavior_tree_msgs', 'rc': 0}
+[3.004611] (-) TimerEvent: {}
+[3.004764] (behavior_tree) JobStarted: {'identifier': 'behavior_tree'}
+[3.015520] (behavior_tree) JobProgress: {'identifier': 'behavior_tree', 'progress': 'cmake'}
+[3.016020] (behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/behavior_tree', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/behavior_tree'], 'cwd': '/workspace/build/behavior_tree', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree_msgs:/workspace/install/behavior_tree_example:/workspace/install/behavior_tree:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[3.079429] (behavior_tree) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.104764] (-) TimerEvent: {}
+[3.127938] (behavior_tree) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.132532] (behavior_tree) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.204879] (-) TimerEvent: {}
+[3.214032] (behavior_tree) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.221626] (behavior_tree) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.222095] (behavior_tree) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.222700] (behavior_tree) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.226323] (behavior_tree) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.278881] (behavior_tree) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.283261] (behavior_tree) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.283453] (behavior_tree) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.283773] (behavior_tree) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.285659] (behavior_tree) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.304996] (-) TimerEvent: {}
+[3.391281] (behavior_tree) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.405117] (-) TimerEvent: {}
+[3.427604] (behavior_tree) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.443079] (behavior_tree) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.466864] (behavior_tree) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.469601] (behavior_tree) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.474076] (behavior_tree) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.481275] (behavior_tree) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.491514] (behavior_tree) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.505171] (-) TimerEvent: {}
+[3.532464] (behavior_tree) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.534437] (behavior_tree) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.584133] (behavior_tree) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.599401] (behavior_tree) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.605287] (-) TimerEvent: {}
+[3.625326] (behavior_tree) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.632460] (behavior_tree) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.681335] (behavior_tree) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.681539] (behavior_tree) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.705418] (-) TimerEvent: {}
+[3.725038] (behavior_tree) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.725696] (behavior_tree) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.805501] (-) TimerEvent: {}
+[3.824179] (behavior_tree) StdoutLine: {'line': b'-- Found behavior_tree_msgs: 0.0.0 (/workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake)\n'}
+[3.850155] (behavior_tree) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams \n'}
+[3.854498] (behavior_tree) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.903475] (behavior_tree) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.903941] (behavior_tree) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.904405] (behavior_tree) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /workspace/src/behavior_tree/include\n'}
+[3.904433] (behavior_tree) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.904831] (behavior_tree) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.904858] (behavior_tree) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.905160] (behavior_tree) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.905546] (-) TimerEvent: {}
+[3.905623] (behavior_tree) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.905657] (behavior_tree) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.905856] (behavior_tree) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.906613] (behavior_tree) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.952081] (behavior_tree) StdoutLine: {'line': b'-- Generating done\n'}
+[3.952839] (behavior_tree) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/behavior_tree\n'}
+[3.958868] (behavior_tree) CommandEnded: {'returncode': 0}
+[3.959653] (behavior_tree) JobProgress: {'identifier': 'behavior_tree', 'progress': 'build'}
+[3.959679] (behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/behavior_tree', '--', '-j20', '-l20'], 'cwd': '/workspace/build/behavior_tree', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree_msgs:/workspace/install/behavior_tree_example:/workspace/install/behavior_tree:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[3.988394] (behavior_tree) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree.dir/src/behavior_tree.cpp.o\x1b[0m\n'}
+[3.991798] (behavior_tree) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_implementation.dir/src/behavior_tree_implementation.cpp.o\x1b[0m\n'}
+[4.005618] (-) TimerEvent: {}
+[4.105839] (-) TimerEvent: {}
+[4.206105] (-) TimerEvent: {}
+[4.306390] (-) TimerEvent: {}
+[4.406740] (-) TimerEvent: {}
+[4.507006] (-) TimerEvent: {}
+[4.607246] (-) TimerEvent: {}
+[4.707477] (-) TimerEvent: {}
+[4.807712] (-) TimerEvent: {}
+[4.907958] (-) TimerEvent: {}
+[5.008254] (-) TimerEvent: {}
+[5.108543] (-) TimerEvent: {}
+[5.208783] (-) TimerEvent: {}
+[5.309013] (-) TimerEvent: {}
+[5.409251] (-) TimerEvent: {}
+[5.509529] (-) TimerEvent: {}
+[5.536840] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool FallbackNode::tick(bool, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.536995] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:39:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.537030] (behavior_tree) StderrLine: {'line': b'   39 |     for(int i = 0; \x1b[01;35m\x1b[Ki < children.size()\x1b[m\x1b[K; i++)\n'}
+[5.537057] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.537083] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:44:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.537108] (behavior_tree) StderrLine: {'line': b'   44 |     for(int i = 0; \x1b[01;35m\x1b[Ki < children.size()\x1b[m\x1b[K; i++){\n'}
+[5.537158] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.537182] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool SequenceNode::tick(bool, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.537207] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:75:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.537233] (behavior_tree) StderrLine: {'line': b'   75 |     for(int i = 0; \x1b[01;35m\x1b[Ki < children.size()\x1b[m\x1b[K; i++)\n'}
+[5.537258] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.537305] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:81:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.537340] (behavior_tree) StderrLine: {'line': b'   81 |     for(int i = 0; \x1b[01;35m\x1b[Ki < children.size()\x1b[m\x1b[K; i++){\n'}
+[5.537363] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.537463] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ParallelNode::tick(bool, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.537534] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:114:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.537568] (behavior_tree) StderrLine: {'line': b'  114 |     for(int i = 0; \x1b[01;35m\x1b[Ki < children.size()\x1b[m\x1b[K; i++)\n'}
+[5.537681] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.537741] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:120:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.537778] (behavior_tree) StderrLine: {'line': b'  120 |     for(int i = 0; \x1b[01;35m\x1b[Ki < children.size()\x1b[m\x1b[K; i++){\n'}
+[5.537802] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.537825] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:132:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.537850] (behavior_tree) StderrLine: {'line': b'  132 |     else if(\x1b[01;35m\x1b[Kchild_failure_count >= (children.size() - child_success_threshold + 1)\x1b[m\x1b[K)\n'}
+[5.537874] (behavior_tree) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.538463] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ConditionNode::tick(bool, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.538493] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:187:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kchild_changed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.538519] (behavior_tree) StderrLine: {'line': b'  187 |   bool \x1b[01;35m\x1b[Kchild_changed\x1b[m\x1b[K = false;\n'}
+[5.538543] (behavior_tree) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.549937] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ActionNode::callback(behavior_tree_msgs::msg::Status_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.550016] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:326:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kbehavior_tree_msgs::msg::Status_<std::allocator<void> >::_id_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.550047] (behavior_tree) StderrLine: {'line': b'  326 |     if(\x1b[01;35m\x1b[Kmsg->id != current_id\x1b[m\x1b[K){\n'}
+[5.550073] (behavior_tree) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.551927] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KBehaviorTree::BehaviorTree(std::string, rclcpp::Node*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.552003] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:418:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.552034] (behavior_tree) StderrLine: {'line': b'  418 |   for(int i = 0; \x1b[01;35m\x1b[Ki < nodes.size()\x1b[m\x1b[K; i++){\n'}
+[5.552059] (behavior_tree) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.553921] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint BehaviorTree::count_tabs(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.553990] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:514:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.554022] (behavior_tree) StderrLine: {'line': b'  514 |   for(int i = 0; \x1b[01;35m\x1b[Ki < str.size()\x1b[m\x1b[K; i++)\n'}
+[5.554047] (behavior_tree) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.560154] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool BehaviorTree::tick()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.560238] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:583:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.560271] (behavior_tree) StderrLine: {'line': b'  583 |     for(int i = 0; \x1b[01;35m\x1b[Ki < nodes.size()\x1b[m\x1b[K; i++){\n'}
+[5.560297] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.570846] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string BehaviorTree::get_graphviz()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.570958] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:672:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.570992] (behavior_tree) StderrLine: {'line': b'  672 |     for(int i = 0; \x1b[01;35m\x1b[Ki < node->children.size()\x1b[m\x1b[K; i++)\n'}
+[5.571018] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.571042] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:683:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Node*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.571066] (behavior_tree) StderrLine: {'line': b'  683 |     for(int i = 0; \x1b[01;35m\x1b[Ki < node->children.size()\x1b[m\x1b[K; i++){\n'}
+[5.571088] (behavior_tree) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.609656] (-) TimerEvent: {}
+[5.709939] (-) TimerEvent: {}
+[5.810238] (-) TimerEvent: {}
+[5.910564] (-) TimerEvent: {}
+[6.010811] (-) TimerEvent: {}
+[6.111079] (-) TimerEvent: {}
+[6.119907] (behavior_tree) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32\x1b[m\x1b[K,\n'}
+[6.120045] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29\x1b[m\x1b[K,\n'}
+[6.120077] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.120173] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.120198] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.120220] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.120242] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.120263] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.120285] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.120306] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.120327] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/workspace/src/behavior_tree/include/behavior_tree/behavior_tree_implementation.h:11\x1b[m\x1b[K,\n'}
+[6.120348] (behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:1\x1b[m\x1b[K:\n'}
+[6.120370] (behavior_tree) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ConditionNode::*(ConditionNode*, std::_Placeholder<1>))(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)>; MessageT = std_msgs::msg::Bool_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.120397] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = std_msgs::msg::Bool_<std::allocator<void> >; CallbackT = std::_Bind<void (ConditionNode::*(ConditionNode*, std::_Placeholder<1>))(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Bool_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = std_msgs::msg::Bool_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.120427] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Bool_<std::allocator<void> >; CallbackT = std::_Bind<void (ConditionNode::*(ConditionNode*, std::_Placeholder<1>))(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Bool_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = std_msgs::msg::Bool_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.120453] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Bool_<std::allocator<void> >; CallbackT = std::_Bind<void (ConditionNode::*(ConditionNode*, std::_Placeholder<1>))(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Bool_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.120479] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Bool_<std::allocator<void> >; CallbackT = std::_Bind<void (ConditionNode::*(ConditionNode*, std::_Placeholder<1>))(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Bool_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Bool_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.120504] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:229:62:\x1b[m\x1b[K   required from here\n'}
+[6.120525] (behavior_tree) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set_deprecated(std::function<void(std::shared_ptr<_Yp>)>) [with SetT = std_msgs::msg::Bool_<std::allocator<void> >; MessageT = std_msgs::msg::Bool_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n"}
+[6.120550] (behavior_tree) StderrLine: {'line': b'  391 |       \x1b[01;35m\x1b[Kset_deprecated(static_cast<typename scbth::callback_type>(callback))\x1b[m\x1b[K;\n'}
+[6.120574] (behavior_tree) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.120595] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.120616] (behavior_tree) StderrLine: {'line': b'  408 |   \x1b[01;36m\x1b[Kset_deprecated\x1b[m\x1b[K(std::function<void(std::shared_ptr<SetT>)> callback)\n'}
+[6.120637] (behavior_tree) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.136026] (behavior_tree) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ActionNode::*(ActionNode*, std::_Placeholder<1>))(std::shared_ptr<behavior_tree_msgs::msg::Status_<std::allocator<void> > >)>; MessageT = behavior_tree_msgs::msg::Status_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.136122] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = behavior_tree_msgs::msg::Status_<std::allocator<void> >; CallbackT = std::_Bind<void (ActionNode::*(ActionNode*, std::_Placeholder<1>))(std::shared_ptr<behavior_tree_msgs::msg::Status_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<behavior_tree_msgs::msg::Status_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<behavior_tree_msgs::msg::Status_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = behavior_tree_msgs::msg::Status_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<behavior_tree_msgs::msg::Status_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.136162] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = behavior_tree_msgs::msg::Status_<std::allocator<void> >; CallbackT = std::_Bind<void (ActionNode::*(ActionNode*, std::_Placeholder<1>))(std::shared_ptr<behavior_tree_msgs::msg::Status_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<behavior_tree_msgs::msg::Status_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<behavior_tree_msgs::msg::Status_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = behavior_tree_msgs::msg::Status_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<behavior_tree_msgs::msg::Status_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.136192] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = behavior_tree_msgs::msg::Status_<std::allocator<void> >; CallbackT = std::_Bind<void (ActionNode::*(ActionNode*, std::_Placeholder<1>))(std::shared_ptr<behavior_tree_msgs::msg::Status_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<behavior_tree_msgs::msg::Status_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<behavior_tree_msgs::msg::Status_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<behavior_tree_msgs::msg::Status_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.136221] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = behavior_tree_msgs::msg::Status_<std::allocator<void> >; CallbackT = std::_Bind<void (ActionNode::*(ActionNode*, std::_Placeholder<1>))(std::shared_ptr<behavior_tree_msgs::msg::Status_<std::allocator<void> > >)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<behavior_tree_msgs::msg::Status_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<behavior_tree_msgs::msg::Status_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<behavior_tree_msgs::msg::Status_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.136247] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/src/behavior_tree/src/behavior_tree_implementation.cpp:318:74:\x1b[m\x1b[K   required from here\n'}
+[6.136269] (behavior_tree) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set_deprecated(std::function<void(std::shared_ptr<_Yp>)>) [with SetT = behavior_tree_msgs::msg::Status_<std::allocator<void> >; MessageT = behavior_tree_msgs::msg::Status_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n"}
+[6.136294] (behavior_tree) StderrLine: {'line': b'  391 |       \x1b[01;35m\x1b[Kset_deprecated(static_cast<typename scbth::callback_type>(callback))\x1b[m\x1b[K;\n'}
+[6.136315] (behavior_tree) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.136336] (behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:408:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.136357] (behavior_tree) StderrLine: {'line': b'  408 |   \x1b[01;36m\x1b[Kset_deprecated\x1b[m\x1b[K(std::function<void(std::shared_ptr<SetT>)> callback)\n'}
+[6.136378] (behavior_tree) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.211272] (-) TimerEvent: {}
+[6.311566] (-) TimerEvent: {}
+[6.411829] (-) TimerEvent: {}
+[6.512166] (-) TimerEvent: {}
+[6.612474] (-) TimerEvent: {}
+[6.712784] (-) TimerEvent: {}
+[6.813100] (-) TimerEvent: {}
+[6.913408] (-) TimerEvent: {}
+[7.013681] (-) TimerEvent: {}
+[7.113972] (-) TimerEvent: {}
+[7.214265] (-) TimerEvent: {}
+[7.314564] (-) TimerEvent: {}
+[7.414851] (-) TimerEvent: {}
+[7.515134] (-) TimerEvent: {}
+[7.615434] (-) TimerEvent: {}
+[7.715736] (-) TimerEvent: {}
+[7.816053] (-) TimerEvent: {}
+[7.916333] (-) TimerEvent: {}
+[8.016562] (-) TimerEvent: {}
+[8.116835] (-) TimerEvent: {}
+[8.217124] (-) TimerEvent: {}
+[8.317405] (-) TimerEvent: {}
+[8.417631] (-) TimerEvent: {}
+[8.517900] (-) TimerEvent: {}
+[8.589442] (behavior_tree) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libbehavior_tree.a\x1b[0m\n'}
+[8.618050] (-) TimerEvent: {}
+[8.672917] (behavior_tree) StdoutLine: {'line': b'[ 75%] Built target behavior_tree\n'}
+[8.718205] (-) TimerEvent: {}
+[8.818507] (-) TimerEvent: {}
+[8.918764] (-) TimerEvent: {}
+[9.018955] (-) TimerEvent: {}
+[9.119150] (-) TimerEvent: {}
+[9.219371] (-) TimerEvent: {}
+[9.319570] (-) TimerEvent: {}
+[9.419816] (-) TimerEvent: {}
+[9.520057] (-) TimerEvent: {}
+[9.620290] (-) TimerEvent: {}
+[9.720520] (-) TimerEvent: {}
+[9.820782] (-) TimerEvent: {}
+[9.921028] (-) TimerEvent: {}
+[10.021233] (-) TimerEvent: {}
+[10.121438] (-) TimerEvent: {}
+[10.221672] (-) TimerEvent: {}
+[10.321873] (-) TimerEvent: {}
+[10.422123] (-) TimerEvent: {}
+[10.522360] (-) TimerEvent: {}
+[10.622591] (-) TimerEvent: {}
+[10.722873] (-) TimerEvent: {}
+[10.823136] (-) TimerEvent: {}
+[10.912824] (behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable behavior_tree_implementation\x1b[0m\n'}
+[10.923222] (-) TimerEvent: {}
+[11.023443] (-) TimerEvent: {}
+[11.123666] (-) TimerEvent: {}
+[11.223891] (-) TimerEvent: {}
+[11.327252] (-) TimerEvent: {}
+[11.427567] (-) TimerEvent: {}
+[11.527814] (-) TimerEvent: {}
+[11.628074] (-) TimerEvent: {}
+[11.728310] (-) TimerEvent: {}
+[11.828591] (-) TimerEvent: {}
+[11.928859] (-) TimerEvent: {}
+[12.029243] (-) TimerEvent: {}
+[12.089056] (behavior_tree) StdoutLine: {'line': b'[100%] Built target behavior_tree_implementation\n'}
+[12.094336] (behavior_tree) CommandEnded: {'returncode': 0}
+[12.105266] (behavior_tree) JobProgress: {'identifier': 'behavior_tree', 'progress': 'install'}
+[12.105807] (behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/behavior_tree'], 'cwd': '/workspace/build/behavior_tree', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree_msgs:/workspace/install/behavior_tree_example:/workspace/install/behavior_tree:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[12.108794] (behavior_tree) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.109069] (behavior_tree) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.109222] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/environment/library_path.sh\n'}
+[12.113420] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/environment/library_path.dsv\n'}
+[12.119160] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/include/behavior_tree/behavior_tree.h\n'}
+[12.127508] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/include/behavior_tree/behavior_tree_implementation.h\n'}
+[12.129377] (-) TimerEvent: {}
+[12.138648] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/lib/behavior_tree/behavior_tree_implementation\n'}
+[12.146689] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/ament_index/resource_index/package_run_dependencies/behavior_tree\n'}
+[12.159003] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/ament_index/resource_index/parent_prefix_path/behavior_tree\n'}
+[12.169679] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/environment/ament_prefix_path.sh\n'}
+[12.176014] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/environment/ament_prefix_path.dsv\n'}
+[12.181914] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/environment/path.sh\n'}
+[12.187579] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/environment/path.dsv\n'}
+[12.191304] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/local_setup.bash\n'}
+[12.194808] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/local_setup.sh\n'}
+[12.199850] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/local_setup.zsh\n'}
+[12.205094] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/local_setup.dsv\n'}
+[12.209955] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/package.dsv\n'}
+[12.215276] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/ament_index/resource_index/packages/behavior_tree\n'}
+[12.218720] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.222271] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/cmake/behavior_treeConfig.cmake\n'}
+[12.227211] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/cmake/behavior_treeConfig-version.cmake\n'}
+[12.229491] (-) TimerEvent: {}
+[12.234482] (behavior_tree) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree/share/behavior_tree/package.xml\n'}
+[12.241452] (behavior_tree) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree/lib/libbehavior_tree.a\n'}
+[12.252975] (behavior_tree) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree/share/behavior_tree/cmake/behavior_treeExport.cmake\n'}
+[12.253215] (behavior_tree) StdoutLine: {'line': b'-- Installing: /workspace/install/behavior_tree/share/behavior_tree/cmake/behavior_treeExport-noconfig.cmake\n'}
+[12.256159] (behavior_tree) CommandEnded: {'returncode': 0}
+[12.287181] (behavior_tree) JobEnded: {'identifier': 'behavior_tree', 'rc': 0}
+[12.287800] (behavior_tree_example) JobStarted: {'identifier': 'behavior_tree_example'}
+[12.291765] (behavior_tree_example) JobProgress: {'identifier': 'behavior_tree_example', 'progress': 'cmake'}
+[12.291860] (behavior_tree_example) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/behavior_tree_example', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/behavior_tree_example'], 'cwd': '/workspace/build/behavior_tree_example', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree/lib:/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree_example'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/behavior_tree_example:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[12.327708] (behavior_tree_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[12.329546] (-) TimerEvent: {}
+[12.363962] (behavior_tree_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[12.368102] (behavior_tree_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.429771] (-) TimerEvent: {}
+[12.432587] (behavior_tree_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.437431] (behavior_tree_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.437629] (behavior_tree_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.437836] (behavior_tree_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.439532] (behavior_tree_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.502552] (behavior_tree_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.506440] (behavior_tree_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.506639] (behavior_tree_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.506898] (behavior_tree_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.508604] (behavior_tree_example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.529807] (-) TimerEvent: {}
+[12.602623] (behavior_tree_example) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[12.629924] (-) TimerEvent: {}
+[12.637374] (behavior_tree_example) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[12.653071] (behavior_tree_example) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[12.675621] (behavior_tree_example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.678316] (behavior_tree_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.682846] (behavior_tree_example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.690132] (behavior_tree_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.700547] (behavior_tree_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.730023] (-) TimerEvent: {}
+[12.737311] (behavior_tree_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.738776] (behavior_tree_example) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.786433] (behavior_tree_example) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.803722] (behavior_tree_example) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.829935] (behavior_tree_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.830088] (-) TimerEvent: {}
+[12.835203] (behavior_tree_example) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.882765] (behavior_tree_example) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.883343] (behavior_tree_example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.930277] (-) TimerEvent: {}
+[12.957592] (behavior_tree_example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.958694] (behavior_tree_example) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.030431] (-) TimerEvent: {}
+[13.058098] (behavior_tree_example) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[13.083002] (behavior_tree_example) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[13.130559] (-) TimerEvent: {}
+[13.200298] (behavior_tree_example) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[13.230694] (-) TimerEvent: {}
+[13.244109] (behavior_tree_example) StdoutLine: {'line': b'-- Found behavior_tree_msgs: 0.0.0 (/workspace/install/behavior_tree_msgs/share/behavior_tree_msgs/cmake)\n'}
+[13.263974] (behavior_tree_example) StdoutLine: {'line': b'-- Found behavior_tree: 0.0.0 (/workspace/install/behavior_tree/share/behavior_tree/cmake)\n'}
+[13.265441] (behavior_tree_example) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[13.277778] (behavior_tree_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.321844] (behavior_tree_example) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.322511] (behavior_tree_example) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.322888] (behavior_tree_example) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /workspace/src/behavior_tree_example/include\n'}
+[13.323013] (behavior_tree_example) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.323422] (behavior_tree_example) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.323550] (behavior_tree_example) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.323822] (behavior_tree_example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.324360] (behavior_tree_example) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.324487] (behavior_tree_example) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.324636] (behavior_tree_example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.325140] (behavior_tree_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.330825] (-) TimerEvent: {}
+[13.332662] (behavior_tree_example) StdoutLine: {'line': b'-- Generating done\n'}
+[13.333454] (behavior_tree_example) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/behavior_tree_example\n'}
+[13.340351] (behavior_tree_example) CommandEnded: {'returncode': 0}
+[13.340725] (behavior_tree_example) JobProgress: {'identifier': 'behavior_tree_example', 'progress': 'build'}
+[13.340749] (behavior_tree_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/behavior_tree_example', '--', '-j20', '-l20'], 'cwd': '/workspace/build/behavior_tree_example', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree/lib:/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree_example'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/behavior_tree_example:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[13.367022] (behavior_tree_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_example.dir/src/behavior_tree_example.cpp.o\x1b[0m\n'}
+[13.367176] (behavior_tree_example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/src/robot_node.cpp.o\x1b[0m\n'}
+[13.430964] (-) TimerEvent: {}
+[13.531235] (-) TimerEvent: {}
+[13.631466] (-) TimerEvent: {}
+[13.731700] (-) TimerEvent: {}
+[13.831970] (-) TimerEvent: {}
+[13.932243] (-) TimerEvent: {}
+[14.032516] (-) TimerEvent: {}
+[14.132750] (-) TimerEvent: {}
+[14.233020] (-) TimerEvent: {}
+[14.333258] (-) TimerEvent: {}
+[14.433536] (-) TimerEvent: {}
+[14.533824] (-) TimerEvent: {}
+[14.634096] (-) TimerEvent: {}
+[14.734403] (-) TimerEvent: {}
+[14.834680] (-) TimerEvent: {}
+[14.934955] (-) TimerEvent: {}
+[15.035239] (-) TimerEvent: {}
+[15.135505] (-) TimerEvent: {}
+[15.235800] (-) TimerEvent: {}
+[15.336086] (-) TimerEvent: {}
+[15.436372] (-) TimerEvent: {}
+[15.536667] (-) TimerEvent: {}
+[15.636947] (-) TimerEvent: {}
+[15.737258] (-) TimerEvent: {}
+[15.837542] (-) TimerEvent: {}
+[15.937803] (-) TimerEvent: {}
+[16.038060] (-) TimerEvent: {}
+[16.138321] (-) TimerEvent: {}
+[16.238591] (-) TimerEvent: {}
+[16.338859] (-) TimerEvent: {}
+[16.439123] (-) TimerEvent: {}
+[16.539381] (-) TimerEvent: {}
+[16.639604] (-) TimerEvent: {}
+[16.732355] (behavior_tree_example) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable behavior_tree_example\x1b[0m\n'}
+[16.739713] (-) TimerEvent: {}
+[16.839955] (-) TimerEvent: {}
+[16.940214] (-) TimerEvent: {}
+[17.020534] (behavior_tree_example) StdoutLine: {'line': b'[ 75%] Built target behavior_tree_example\n'}
+[17.040313] (-) TimerEvent: {}
+[17.140531] (-) TimerEvent: {}
+[17.240772] (-) TimerEvent: {}
+[17.340963] (-) TimerEvent: {}
+[17.441175] (-) TimerEvent: {}
+[17.541425] (-) TimerEvent: {}
+[17.641654] (-) TimerEvent: {}
+[17.741872] (-) TimerEvent: {}
+[17.842128] (-) TimerEvent: {}
+[17.942386] (-) TimerEvent: {}
+[18.042645] (-) TimerEvent: {}
+[18.142869] (-) TimerEvent: {}
+[18.243104] (-) TimerEvent: {}
+[18.343347] (-) TimerEvent: {}
+[18.431500] (behavior_tree_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_node\x1b[0m\n'}
+[18.443478] (-) TimerEvent: {}
+[18.543738] (-) TimerEvent: {}
+[18.643968] (-) TimerEvent: {}
+[18.699576] (behavior_tree_example) StdoutLine: {'line': b'[100%] Built target robot_node\n'}
+[18.705290] (behavior_tree_example) CommandEnded: {'returncode': 0}
+[18.716295] (behavior_tree_example) JobProgress: {'identifier': 'behavior_tree_example', 'progress': 'install'}
+[18.716443] (behavior_tree_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/behavior_tree_example'], 'cwd': '/workspace/build/behavior_tree_example', 'env': OrderedDict([('HOSTNAME', 'john-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/behavior_tree/lib:/workspace/install/behavior_tree_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/rqt_behavior_tree:/opt/ros/humble'), ('ACCEPT_EULA', 'Y'), ('PWD', '/workspace/build/behavior_tree_example'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/behavior_tree_msgs/local/lib/python3.10/dist-packages:/extras/ws/build/rqt_behavior_tree/src:/workspace/install/rqt_behavior_tree/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/workspace/install/behavior_tree:/workspace/install/behavior_tree_msgs:/workspace/install/behavior_tree_example:/workspace/install/rqt_behavior_tree:/opt/ros/humble')]), 'shell': False}
+[18.720151] (behavior_tree_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.720461] (behavior_tree_example) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.720708] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//launch/behavior_tree_example.xml\n'}
+[18.724490] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/demo.tree\n'}
+[18.727600] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/demo_base.tree\n'}
+[18.730650] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/example.tree\n'}
+[18.733651] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/example2.tree\n'}
+[18.736813] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/example3.tree\n'}
+[18.739787] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/example3_nested_subtree.tree\n'}
+[18.742757] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/example3_subtree.tree\n'}
+[18.744012] (-) TimerEvent: {}
+[18.745732] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/ugv_tree.tree\n'}
+[18.748684] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//config/ugv_tree_basic.tree\n'}
+[18.751702] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//rviz/behavior_tree.perspective\n'}
+[18.754571] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example//rviz/behavior_tree_example.rviz\n'}
+[18.757794] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/lib/behavior_tree_example/behavior_tree_example\n'}
+[18.760759] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/lib/behavior_tree_example/robot_node\n'}
+[18.763743] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/ament_index/resource_index/package_run_dependencies/behavior_tree_example\n'}
+[18.766702] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/ament_index/resource_index/parent_prefix_path/behavior_tree_example\n'}
+[18.769688] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/environment/ament_prefix_path.sh\n'}
+[18.773237] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/environment/ament_prefix_path.dsv\n'}
+[18.777919] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/environment/path.sh\n'}
+[18.782108] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/environment/path.dsv\n'}
+[18.785771] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/local_setup.bash\n'}
+[18.789224] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/local_setup.sh\n'}
+[18.792481] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/local_setup.zsh\n'}
+[18.795676] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/local_setup.dsv\n'}
+[18.799483] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/package.dsv\n'}
+[18.803469] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/ament_index/resource_index/packages/behavior_tree_example\n'}
+[18.807167] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/cmake/behavior_tree_exampleConfig.cmake\n'}
+[18.810985] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/cmake/behavior_tree_exampleConfig-version.cmake\n'}
+[18.814704] (behavior_tree_example) StdoutLine: {'line': b'-- Symlinking: /workspace/install/behavior_tree_example/share/behavior_tree_example/package.xml\n'}
+[18.821230] (behavior_tree_example) CommandEnded: {'returncode': 0}
+[18.844130] (-) TimerEvent: {}
+[18.862999] (behavior_tree_example) JobEnded: {'identifier': 'behavior_tree_example', 'rc': 0}
+[18.863866] (-) EventReactorShutdown: {}

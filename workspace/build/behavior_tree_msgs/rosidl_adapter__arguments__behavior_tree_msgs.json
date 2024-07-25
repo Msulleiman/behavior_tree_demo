@@ -1,0 +1,9 @@
+{
+  "package_name": "behavior_tree_msgs",
+  "non_idl_tuples": [
+    "/workspace/src/behavior_tree_msgs:msg/Active.msg",
+    "/workspace/src/behavior_tree_msgs:msg/Status.msg",
+    "/workspace/src/behavior_tree_msgs:msg/BehaviorTreeCommand.msg",
+    "/workspace/src/behavior_tree_msgs:msg/BehaviorTreeCommands.msg"
+  ]
+}
