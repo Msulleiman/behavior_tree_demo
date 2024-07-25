@@ -1,6 +1,7 @@
 # Behavior Tree Demo
 
 ## Running
+The easiest way to run the code is to use docker, however, the code can also be run on any Ubuntu 22.04 installation with ROS2 Humble Desktop installed.
 
 ```
 git clone git@bitbucket.org:castacks/behavior_tree_demo.git
