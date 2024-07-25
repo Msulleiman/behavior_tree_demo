@@ -17,7 +17,7 @@ private:
   rclcpp::Time last_execute_time;
   geometry_msgs::msg::PointStamped home, destination, no_fly_zone;
   std_msgs::msg::Float32 no_fly_zone_radius;
-  visualization_msgs::msg::Marker no_fly_zone_marker, no_fly_zone_label, home_label, destination_label;
+  visualization_msgs::msg::Marker no_fly_zone_marker, no_fly_zone_label, home_label, home_sphere, destination_label, destination_sphere;
   visualization_msgs::msg::MarkerArray marker_array;
   
   // subscribers
@@ -109,6 +109,23 @@ public:
     home_label.color.b = 1;
     home_label.color.a = 1;
     home_label.text = "Home";
+
+    home_sphere.header.frame_id = "world";
+    home_sphere.ns = "home_sphere";
+    home_sphere.id = 0;
+    home_sphere.type = visualization_msgs::msg::Marker::SPHERE;
+    home_sphere.action = visualization_msgs::msg::Marker::ADD;
+    home_sphere.pose.orientation.w = 1;
+    home_sphere.pose.position.x = home.point.x;
+    home_sphere.pose.position.y = home.point.y;
+    home_sphere.pose.position.z = home.point.z;
+    home_sphere.scale.x = 0.5;
+    home_sphere.scale.y = 0.5;
+    home_sphere.scale.z = 0.5;
+    home_sphere.color.r = 0;
+    home_sphere.color.g = 1;
+    home_sphere.color.b = 0;
+    home_sphere.color.a = 1;
   
     destination_label.header.frame_id = "world";
     destination_label.ns = "destination_label";
@@ -128,10 +145,29 @@ public:
     destination_label.color.a = 1;
     destination_label.text = "Destination";
 
+    destination_sphere.header.frame_id = "world";
+    destination_sphere.ns = "destination_sphere";
+    destination_sphere.id = 0;
+    destination_sphere.type = visualization_msgs::msg::Marker::SPHERE;
+    destination_sphere.action = visualization_msgs::msg::Marker::ADD;
+    destination_sphere.pose.orientation.w = 1;
+    destination_sphere.pose.position.x = destination.point.x;
+    destination_sphere.pose.position.y = destination.point.y;
+    destination_sphere.pose.position.z = destination.point.z;
+    destination_sphere.scale.x = 0.5;
+    destination_sphere.scale.y = 0.5;
+    destination_sphere.scale.z = 0.5;
+    destination_sphere.color.r = 0;
+    destination_sphere.color.g = 0;
+    destination_sphere.color.b = 1;
+    destination_sphere.color.a = 1;
+
     marker_array.markers.push_back(no_fly_zone_marker);
     marker_array.markers.push_back(no_fly_zone_label);
     marker_array.markers.push_back(home_label);
+    marker_array.markers.push_back(home_sphere);
     marker_array.markers.push_back(destination_label);
+    marker_array.markers.push_back(destination_sphere);
   
     odom.header.frame_id = "world";
     odom.child_frame_id = "world";

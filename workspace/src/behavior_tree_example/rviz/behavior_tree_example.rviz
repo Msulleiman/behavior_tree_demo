@@ -116,7 +116,9 @@ Visualization Manager:
       Name: Markers
       Namespaces:
         destination_label: true
+        destination_sphere: true
         home_label: true
+        home_sphere: true
         no_fly_zone: true
         no_fly_zone_label: true
       Topic:

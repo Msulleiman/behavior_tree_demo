@@ -4,3 +4,8 @@ behavior_tree_msgs.egg-info/PKG-INFO
 behavior_tree_msgs.egg-info/SOURCES.txt
 behavior_tree_msgs.egg-info/dependency_links.txt
 behavior_tree_msgs.egg-info/top_level.txt
+behavior_tree_msgs/msg/__init__.py
+behavior_tree_msgs/msg/_active.py
+behavior_tree_msgs/msg/_behavior_tree_command.py
+behavior_tree_msgs/msg/_behavior_tree_commands.py
+behavior_tree_msgs/msg/_status.py

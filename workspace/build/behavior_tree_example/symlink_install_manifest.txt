@@ -1,13 +1,6 @@
 /workspace/install/behavior_tree_example/share/behavior_tree_example//launch/behavior_tree_example.xml
-/workspace/install/behavior_tree_example/share/behavior_tree_example//config/demo.tree
 /workspace/install/behavior_tree_example/share/behavior_tree_example//config/demo_base.tree
-/workspace/install/behavior_tree_example/share/behavior_tree_example//config/example.tree
-/workspace/install/behavior_tree_example/share/behavior_tree_example//config/example2.tree
-/workspace/install/behavior_tree_example/share/behavior_tree_example//config/example3.tree
-/workspace/install/behavior_tree_example/share/behavior_tree_example//config/example3_nested_subtree.tree
-/workspace/install/behavior_tree_example/share/behavior_tree_example//config/example3_subtree.tree
-/workspace/install/behavior_tree_example/share/behavior_tree_example//config/ugv_tree.tree
-/workspace/install/behavior_tree_example/share/behavior_tree_example//config/ugv_tree_basic.tree
+/workspace/install/behavior_tree_example/share/behavior_tree_example//config/demo_base.tree~
 /workspace/install/behavior_tree_example/share/behavior_tree_example//rviz/behavior_tree.perspective
 /workspace/install/behavior_tree_example/share/behavior_tree_example//rviz/behavior_tree_example.rviz
 /workspace/install/behavior_tree_example/lib/behavior_tree_example/behavior_tree_example
