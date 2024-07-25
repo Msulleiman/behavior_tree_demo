@@ -16,3 +16,7 @@ The config file for the behavior tree is in `workspace/src/behavior_tree_example
 You can edit this from outside docker and it will be reflected inside.
 
 If you want to create a new config file you can place it in the `workspace/src/behavior_tree_example/config/` folder and modify the config parameter in `workspace/src/behavior_tree_example/launch/behavior_tree_example.xml` but you will have to rebuild with `colcon build --symlink-install` for the change to be reflected.
+
+## Lecture and Exercise Slides for Behavior Trees
+
+https://docs.google.com/presentation/d/1cggQA8HyMsL1Jx7vrRdrmhpls3RMNXKjXDaYVfQnqFY/edit#slide=id.p
