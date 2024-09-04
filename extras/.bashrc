@@ -120,5 +120,7 @@ alias emacs='emacs -nw'
 alias semacs='sudo emacs -nw'
 alias sds='source devel/setup.bash'
 
+source /opt/ros/humble/setup.bash
+
 cd /workspace
 source install/setup.bash
